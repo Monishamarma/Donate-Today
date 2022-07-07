@@ -67,7 +67,7 @@ p{
  
     
 }
-hr{
+input{
     color:black;
     width: 40%;
     text-align: center;
@@ -168,5 +168,33 @@ hr{
     width: 90%;
     margin-left: 15%;
     margin-bottom: 10px;
-}
 
+}
+.input-address{
+    height:200px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+label{
+    position: relative;
+}
+input[type="text"]{
+    border: none;
+    background-color:white;
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+
+}
+button{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right:0;
+    background-color: brown ;
+    color: white;
+    padding: 0 15px;
+    
+}
