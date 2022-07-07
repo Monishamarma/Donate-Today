@@ -87,13 +87,18 @@ hr{
     margin-bottom: 150px; 
 
 }
+.sky{
+    background-image: url(images/sky.jpg);
+}
+.pink{
+    background-image: url(images/ffddee.png);
+}
 .need{
     width: 30%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-right: 40px;
+    padding-left: 40px;
     border-radius: 10px;
-    background-image: url(images/ffddee.png);
     text-align:left;
     
 }
@@ -111,7 +116,7 @@ hr{
 
 .flexible-container {
     display:flex;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 
   
 }
@@ -136,5 +141,32 @@ hr{
     margin-right: 53%;
 
 }
+.right-black {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-left:190px;
+   
+}
 
+.right-button {
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 400;
+    padding: 20px 40px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 310px;
+
+}
+.right-Half-wdith {
+    width: 80%;
+    margin-right: 50px;
+    
+}
+.right-Half-width img {
+    width: 90%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
 
