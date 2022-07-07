@@ -175,6 +175,9 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    
+   
 
 }
 label{
@@ -182,7 +185,8 @@ label{
 }
 input[type="text"]{
     border: none;
-    background-color:white;
+    
+    background-color:rgb(221, 207, 207);
     width: 400px;
     height: 40px;
     padding: 0 15px;
@@ -196,5 +200,5 @@ button{
     background-color: brown ;
     color: white;
     padding: 0 15px;
-    
+    border: none;
 }
