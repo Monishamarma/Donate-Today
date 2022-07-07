@@ -177,14 +177,10 @@ input{
     justify-content: center;
     align-items: center;
     border: none;
-    background-color: rgb(220, 223, 245);
+    background-color: rgb(233, 173, 182);
     margin-left: 15%;
     margin-right: 15%;
    
-    
-    
-   
-
 }
 label{
     position: relative;
@@ -210,12 +206,16 @@ button{
     border: none;
     
 }
+.last-page {
+    padding-bottom: 10%;
+}
 .footer-h1{
     color:brown;
 }
 .footer-part{
     
-    margin-bottom: 20%;
-    padding: 20px 70px;
+    
+    padding:50px 50px;
+    
     background-color: black;
 }
